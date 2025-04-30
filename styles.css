@@ -1,0 +1,52 @@
+body {
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: rgb(18, 16, 16);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h1 i {
+    color: #f39c12; 
+    margin-right: 10px; 
+    font-size: 1.5em; }
+
+.container {
+    background: rgba(240, 238, 244, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(31, 7, 61, 0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    
+    margin: 50px auto;
+}
+
+input, button {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+}
+
+canvas {
+    margin-top: 20px;
+    width: 100%;
+}
